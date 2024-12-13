@@ -1,0 +1,11 @@
+To solve this, we can increase the specificity of the `.important-text` selector.  This can be done by adding another selector (e.g., an ID or more classes) to make it more specific than the inline style.
+
+Here's an updated CSS solution:
+
+```css
+/* solution.css */
+#myHeading {
+  color: red; /* More specific selector */
+}
+```
+Now the `#myHeading` selector is more specific than the inline style and will correctly apply the red color.
