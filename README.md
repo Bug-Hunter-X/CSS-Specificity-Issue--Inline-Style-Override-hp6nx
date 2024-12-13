@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet often overlooked, CSS bug related to specificity. An inline style unintentionally overrides a more specific selector, leading to unexpected styling. The solution showcases how to resolve this by ensuring the intended style has higher specificity.
